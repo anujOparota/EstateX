@@ -1,0 +1,93 @@
+# ==============================================================
+# Environment & Secret files (NEVER commit these)
+# ==============================================================
+.env
+.env.*
+!.env.example
+*.env
+*.env.local
+*.local
+backend/src/main/resources/application.properties
+!backend/src/main/resources/application.properties.example
+
+# ==============================================================
+# Database Local Files & Dumps
+# ==============================================================
+database/project_temp.sql
+*.sql.bak
+*.dump
+*.backup
+
+# ==============================================================
+# Backend - Maven & Java Build Artifacts
+# ==============================================================
+target/
+**/target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+backend/target/
+.mvn/
+mvnw
+mvnw.cmd
+
+# ==============================================================
+# Frontend - Node & Dependencies
+# ==============================================================
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+dist-ssr/
+**/dist-ssr/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+
+# Node package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==============================================================
+# IDEs, Editors & Workspaces
+# ==============================================================
+.idea/
+*.iml
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==============================================================
+# Operating System Files
+# ==============================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# ==============================================================
+# Logs & Temporary Files
+# ==============================================================
+*.log
+logs/
+**/logs/
+*.tmp
+*.temp
+README_MERGE_NOTES.txt
